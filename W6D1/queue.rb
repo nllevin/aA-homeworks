@@ -5,6 +5,7 @@ class Queue
 
     def enqueue(ele)
         @elements.push(ele)
+        ele
     end
 
     def dequeue
