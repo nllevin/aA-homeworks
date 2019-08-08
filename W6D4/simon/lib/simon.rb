@@ -27,6 +27,7 @@ class Simon
       round_success_message
       self.sequence_length += 1
     end
+    sleep(1)
   end
 
   def show_sequence
