@@ -1,0 +1,95 @@
+body, p, ul, li, img, h1, nav, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.splash {
+  font-family: Futura;
+  background-image: url("splash.jpg");
+  background-size: 100%;
+}
+
+.splash h1 {
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  width: 40%;
+}
+
+.splash nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 75px;
+  background-color: #eee;
+  border-bottom: 1px solid black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.user-info li:first-of-type {
+  margin-bottom: 5px;
+}
+
+.user-info a:hover {
+  color: #aaa;
+}
+
+.session-links a {
+  color: black;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.session-links a:hover {
+  background: black;
+  color: #eee;
+}
+
+.splash footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background: #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: sans-serif;
+  border-top: 1px solid black;
+}
+
+.splash footer a {
+  margin-right: 15px;
+}
+
+.splash footer a:hover {
+  color: #aaa;
+}
