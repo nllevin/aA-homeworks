@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  nginx:
+    build:
+      context: .
+    image: nllevin/nginx:1.15-alpine
+    ports:
+      - "80:80"
